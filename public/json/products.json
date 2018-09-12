@@ -8,7 +8,7 @@
           "full":"This is the full product description 3"
         },
         "categories":[1,2,3],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -64,7 +64,7 @@
           "full":"Made from soft washed fabric and featuring a crew neckline. Relaxed Fit features a roll sleeve detail."
         },
         "categories":[1,2,3],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -143,7 +143,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,3],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -258,7 +258,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -377,7 +377,7 @@
         "price_sale": 0
       },
       {
-        "id": 5,
+        "id": 8,
         "title": "Metallic Blouse",
         "description":{
           "card":"Machine washable.",
@@ -385,7 +385,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -452,7 +452,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -519,7 +519,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -586,7 +586,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -653,7 +653,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -720,7 +720,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",
@@ -787,7 +787,7 @@
           "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
         },
         "categories":[2,2,4],
-        "image": [
+        "images": [
           {
             "id": 1,
             "original": "1.jpg",

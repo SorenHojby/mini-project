@@ -2,7 +2,6 @@
   <div id="app">
     <Topbar />
     <Navbar />
-    <Hero />
     <router-view/>
     <Footer />
     <Bottom />
@@ -12,17 +11,14 @@
 <script>
 import Topbar from "@/components/Topbar.vue";
 import Navbar from "@/components/Navbar.vue";
-import Hero from "@/components/Hero.vue";
 import Footer from "@/components/Footer.vue";
 import Bottom from "@/components/Bottom.vue";
-import axios from 'axios'
-
+import axios from "axios";
 
 export default {
   components: {
     Topbar,
     Navbar,
-    Hero,
     Footer,
     Bottom
   }
@@ -30,17 +26,18 @@ export default {
 </script>
 
 <style lang="scss">
-body{
+@import "@/assets/scss/fonts.scss";
+body {
   background: white !important;
 }
 
-hr{
+hr {
   position: relative;
-  margin-left:auto;
-  margin-right:auto;
-    background: #eeeeee;
-    height:2px;
-    border:none;
+  margin-left: auto;
+  margin-right: auto;
+  background: #eeeeee;
+  height: 2px;
+  border: none;
 }
 
 * {

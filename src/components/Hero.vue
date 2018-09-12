@@ -17,10 +17,15 @@
     background-position: center center;
     background-size: 100%;
     height: 600px;
-    .btn{
+    .btn-outline-secondary{
+         font-family: "Montserrat-Regular",sans-serif;
+         letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size:16px;
         position: relative;
         top:50vh;
         left:15vw;
+        border-radius: 0px;
     }
 }
 </style>

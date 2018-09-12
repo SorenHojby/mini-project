@@ -3,10 +3,11 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col">
+        <nav class="nav">
         <div class="dropdown">
-          <button class=" btnCurrencySelector btn btn-sm bg-dark dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a href='#' class=" nav-link pt-2 pl-5 pr-0 pb-2"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Currency: GBP
-          </button>
+          </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">GBP</a>
             <a class="dropdown-item" href="#">EUR</a>
@@ -14,7 +15,7 @@
             <a class="dropdown-item" href="#">DKK</a>
           </div>
         </div>
-          
+        </nav>
       </div>
       <div class="col">
         <nav class="nav">
@@ -34,9 +35,13 @@
 </script>
 <style lang="scss">
 .btnCurrencySelector {
+  font-family: "Montserrat-Bold",sans-serif;
+  font-size:13px;
   color: #bbb;
 }
 .nav-link {
+  font-family: "Montserrat-Regular",sans-serif;
+  font-size:13px;
   color: #bbb;
   &:hover {
     color: #fff;
@@ -49,6 +54,9 @@
       background-color: #00c8c8;
       color: #eee;
     }
+  }
+ .dropdown-item{
+  font-size:13px;
   }
 }
 </style>

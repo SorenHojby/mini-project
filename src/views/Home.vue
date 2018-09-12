@@ -1,5 +1,6 @@
 <template>
- <div class=" home">
+ <div class="home">
+   <hero />
    <div class="container">
     <hr class="mt-5 mb-5">
     <nav class="nav">
@@ -11,34 +12,62 @@
       </nav>
 
 <div class="grid-container mt-3"> 
-  <div :class="'item item' + index" v-for="(product,index) in products" v-if = "index < 6"  :key="product.id" @mouseover="showByIndex = product.id" @mouseout="showByIndex = null">
-      <div class="pricetag"><sup>&pound;</sup>{{ product.price_original.toLocaleString() }}</div>
+  <div :class="'item item' + index" v-for="(product,index) in products" v-if = "index < 6"  :key="product.id" @mouseover="showInfobox = product.id" @mouseout="showInfobox = null">
+      <div class="pricetag" v-if="product.price_sale == false"><sup>&pound;</sup>{{ product.price_original }}</div>
+      <div class="pricetag" v-else><del><sup>&pound;</sup>{{ product.price_original }}</del>&nbsp;&nbsp;<big><sup>&pound;</sup>{{ product.price_sale }}</big></div>
     <div :style="{ backgroundImage: 'url(/assets/images/products/' + product.id + '/standard/1.jpg)' }" class="image"></div>
-          <div class="middle" v-show="showByIndex === product.id">
+          <div class="middle" v-show="showInfobox === product.id">
             <div class="thumbnails">
-              <img :src="'/assets/images/products/' + product.id + '/thumbnails/'" alt="" width="50px"  />
+              <img :src="'/assets/images/products/' + product.id + '/thumbnails/' + image.thumbnail" v-for="(image,index) in product.images" v-if = "index < 3" :key="image.id" alt=""  />
             </div>
-            <div class="infoicon"><a href=""><i class="fas fa-info-circle"></i></a></div>
+
+            <div class="infoicon">
+              <router-link :to="`/product/${product.id}`">
+                <i class="fas fa-info-circle"></i>
+              </router-link>
+            </div>
             
-        </div>
-        <div class="infobox" v-show="showByIndex === product.id">
-              <h3>Headline dkdkd <span class="price"><sup>&pound;</sup>{{ product.price_original}}</span></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+            <div class="infobox" v-show="showInfobox === product.id">
+              <h3 class=" text-center">{{ product.title }}
+                <span class="price" v-if="product.price_sale == false"><sup>&pound;</sup>{{ product.price_original }}</span>
+                <span class="price" v-else><del><sup>&pound;</sup>{{ product.price_original }}</del>&nbsp;&nbsp;<big><sup>&pound;</sup>{{ product.price_sale }}</big></span>
+              </h3>
+              <p class=" text-center">{{ product.description.appetiser }}</p>
+  
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <div class="circle">
+                      <i class="fas fa-shopping-cart fa-inverse"></i>
+                    </div>
+                  </a>
+                  &nbsp;
+                  
+                  <a href="#">
+                    <div class="circle">
+                      <i class="far fa-heart fa-inverse"></i>
+                    </div>
+                  </a>
+                  &nbsp;
+                 
+                  <a href="#">
+                    <div class="circle">
+                      <i class="fas fa-expand fa-inverse"></i>
+                    </div>
+                  </a>
+                </div>
+                </div>
             </div>
+      </div>
   </div>
- 
-    
+  <hr class="mt-5 mb-5">
 </div>
-<hr class="mt-5 mb-5">
-  </div>
 <div class="container-fluid">
 <div class="row">
-  <div class="col " style="background:#f8f8f8;min-height:250px;"> 
-  1
-   
-</div>
-  <div class="col mr-4  ml-4" style="background:#f8f8f8;min-height:250px;">2</div>
-  <div class="col" style="background:#f8f8f8;min-height:250px;">3</div>
+  <div class="col lookbook man" style="background-image:url('/assets/images/man.jpg');">1</div>
+  <div class="col mr-4 ml-4 lookbook woman">2</div>
+  <div class="col lookbook you">3</div>
 </div>
 </div>
   </div>
@@ -46,40 +75,54 @@
 
 <script>
 import axios from "axios";
-
+import Hero from "@/components/Hero.vue";
 export default {
   data() {
     return {
-      showByIndex: null,
-      products: null,
-      thumbnails: null
+      showInfobox: null,
+      products: null
     };
+  },
+  components: {
+    Hero
   },
   mounted() {
     this.getData();
-    this.getthumbnails();
   },
   methods: {
     getData() {
       axios
         .get("../json/products.json")
         .then(response => (this.products = response.data));
-    },
-    getthumbnails() {
-      axios
-        .get("../json/products.json")
-        .then(response => (this.thumbnails = response.data));
-       
     }
   }
 };
 </script>
 <style lang="scss" scoped>
+.lookbook {
+  background: #f8f8f8;
+  min-height: 250px;
+  background-position: left center;
+  background-size: fit;
+  &.man {
+    background-image: url("../assets/images/man.jpg");
+  }
+  &.women {
+    background-image: url("../assets/images/woman.jpg");
+  }
+  &.you {
+    background-image: url("../assets/images/you.jpg");
+  }
+}
 .nav {
   .nav-link {
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 13px;
     font-weight: 600;
     &.active,
     &:hover {
+      font-family: "Montserrat-Bold", sans-serif;
+      font-size: 13px;
       color: #00c8c8;
     }
   }
@@ -100,12 +143,13 @@ export default {
   width: 100%;
 
   .pricetag {
-    font-family: "montserratregular", sans-serif;
+    font-family: "Montserrat-Light", sans-serif;
     position: absolute;
     top: 15px;
     float: left;
-    left: 15px;
+    left: 21px;
     z-index: 105;
+    color: #9a9a9a;
   }
   .middle {
     transition: 0.5s ease;
@@ -122,10 +166,11 @@ export default {
 
     .infoicon {
       display: block;
+      z-index: 200;
       text-align: center;
       color: white;
       position: absolute;
-      bottom: -100px;
+      bottom: 25px;
       width: 100%;
       left: 0px;
       font-size: 20pt;
@@ -147,42 +192,41 @@ export default {
         margin-bottom: 10px;
         border: 1px solid white;
         display: block;
+        width: 50px;
       }
     }
-    
+  }
+  .infobox {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat-Regular", sans-serif;
+    background-color: #f8f8f8;
+    position: absolute;
+    margin-top: 0px;
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    z-index: 115;
+    width: 100%;
+    display: block;
+    & h3 {
+      text-align: left;
+      font-size: 13px;
+      font-family: "Montserrat-Regular", sans-serif;
+      & .price {
+        text-align: right;
+      }
     }
-    .infobox {
-      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
-      font-family: "montserratregular", sans-serif;
-      opacity: 1;
-      background-color: #f8f8f8;
-      position: absolute;
-      bottom: -108px;
-      color: black;
-      font-size: 16px;
-      padding: 15px;
-      z-index: 115;
-      width: 100%;
-      display: block;
-      & h3 {
-        text-align: left;
-        font-size: 13px;
-        font-family: "montserratregular", sans-serif;
-        & .price {
-          float: right;
-        }
-      }
-      & p {
-        font-size: 13px;
-        text-align: left;
-        font-family: "robotoregular", sans-serif;
-      }
+    & p {
+      font-size: 13px;
+      text-align: left;
+      font-family: "Montserrat-Regular", sans-serif;
+    }
   }
 
   .image {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size:100%; 
+    background-size: 100%;
     display: block;
     width: 100% !important;
     height: 310px;
@@ -191,18 +235,30 @@ export default {
     position: relative;
     z-index: 50;
   }
- 
-
-  &:hover .image {
-    opacity: 1;
-
-    z-index: 100;
-  }
 
   &:hover {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
   }
- 
+  a {
+    &:hover {
+      .circle {
+        background-color: #019898;
+        .fa-inverse {
+          color: #fff;
+        }
+      }
+    }
+    .circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      color: #fff;
+      background-color: #727272;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
 }
 .item0 {
   grid-area: item0;
@@ -212,20 +268,20 @@ export default {
 }
 .item2 {
   grid-area: item2;
-   .image{
-    height:450px;
+  .image {
+    height: 450px;
   }
   .infobox {
-       bottom:-88px;
+    bottom: -88px;
   }
 }
 .item3 {
   grid-area: item3;
-   .image{
-    height:450px;
+  .image {
+    height: 450px;
   }
-    .infobox {
-       bottom:-88px;
+  .infobox {
+    bottom: -88px;
   }
 }
 .item4 {

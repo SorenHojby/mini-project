@@ -1,6 +1,6 @@
 <template>
 <nav class="navbar navbar-expand-lg ">
-  <a class="navbar-brand" href="#"><img src="@/assets/images/logo/logo.svg" width="245" alt="test"></a>
+  <a class="navbar-brand" href="/"><img src="@/assets/images/logo/logo.svg" width="245" alt="test"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -100,23 +100,47 @@
 </nav>
 </template>
 <style lang="scss" scoped>
-nav{
-    
-    z-index:100;
+nav {
+  z-index: 100;
 }
-.navbar-light{
-    background-color:transparent !important;
+.navbar-light {
+  background-color: transparent !important;
 }
-.nav-item{
-    color:black;
-    .nav-link{
-        color:black !important;
-      
+.nav-item {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 13px;
+  text-transform: lowercase;
+  color: black;
+  .nav-link {
+    color: black !important;
+    text-transform: uppercase;
+  }
+  h6 {
+    text-transform: uppercase;
+    color: black !important;
+    font-weight: 700;
+  }
+
+  .dropdown-menu {
+    border: none !important;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.5);
+    min-width: 200px;
+    .dropdown-item {
+      font-size: 14px;
+      font-family: "Montserrat-Thin", sans-serif;
+      color: #727272;
     }
-    h6{
-         color:black !important;
-         font-weight:700;
+  }
+  .dropdown-menu.columns-2 {
+    min-width: 400px;
+  }
+
+  @media (max-width: 767px) {
+    .dropdown-menu.multi-column {
+      min-width: 240px !important;
+      overflow-x: hidden;
     }
+  }
 }
 .navbar-brand {
   margin-left: 150px;
@@ -144,24 +168,5 @@ button:focus {
   left: -25px;
   color: gray;
   z-index: 100;
-}
-.dropdown-menu {
-    border: none !important;
-    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.5) ;
-  min-width: 200px;
-}
-.dropdown-menu.columns-2 {
-  min-width: 400px;
-}
-.dropdown-menu li a {
-  padding: 5px 15px;
-  font-weight: 300;
-}
-
-@media (max-width: 767px) {
-  .dropdown-menu.multi-column {
-    min-width: 240px !important;
-    overflow-x: hidden;
-  }
 }
 </style>
