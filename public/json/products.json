@@ -1,0 +1,848 @@
+[
+      {
+        "id": 1,
+        "title": "Dark Ink Jeans With Stretch",
+        "description":{
+          "card":"Dark Ink Jeans With Stretch 1",
+          "appetiser":"Dark Ink Jeans With Stretch 2",
+          "full":"This is the full product description 3"
+        },
+        "categories":[1,2,3],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          },
+          {
+            "id": 2,
+            "original": "2.jpg",
+            "thumbnail": "2.jpg",
+            "standard": "2.jpg"
+          },
+          {
+            "id": 3,
+            "original": "3.jpg",
+            "thumbnail": "3.jpg",
+            "standard": "3.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "375212c0086d",
+            "size": "small",
+            "color": "",
+            "stock": 3           
+          },
+          {
+            "id": "82023f13a4b2",
+            "size": "medium",
+            "color": "",
+            "stock": 5           
+          },
+          {
+            "id": "d94026317123",
+            "size": "large",
+            "color": "",
+            "stock": 7           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-03T12:30:00",
+        "tags":["Casual","Men","Sport"],
+        "price_original": 17,
+        "price_sale": 15
+        
+      },
+      {
+        "id": 2,
+        "title": "Crew Neck T-Shirt",
+        "description":{
+          "card":"Made from soft washed fabric and featuring a crew neckline.",
+          "appetiser":"Made from soft washed fabric and featuring a crew neckline. Relaxed Fit features a roll sleeve detail.",
+          "full":"Made from soft washed fabric and featuring a crew neckline. Relaxed Fit features a roll sleeve detail."
+        },
+        "categories":[1,2,3],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          },
+          {
+            "id": 2,
+            "original": "2.jpg",
+            "thumbnail": "2.jpg",
+            "standard": "2.jpg"
+          },
+          {
+            "id": 3,
+            "original": "3.jpg",
+            "thumbnail": "3.jpg",
+            "standard": "3.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-03T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 18,
+        "price_sale": 0
+      },
+      {
+        "id": 3,
+        "title": "Pocket Sweater",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,3],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          },
+          {
+            "id": 2,
+            "original": "2.jpg",
+            "thumbnail": "2.jpg",
+            "standard": "2.jpg"
+          },
+          {
+            "id": 3,
+            "original": "3.jpg",
+            "thumbnail": "3.jpg",
+            "standard": "3.jpg"
+          },
+          {
+            "id": 4,
+            "original": "4.jpg",
+            "thumbnail": "4.jpg",
+            "standard": "4.jpg"
+          },
+          {
+            "id": 5,
+            "original": "5.jpg",
+            "thumbnail": "5.jpg",
+            "standard": "5.jpg"
+          },
+          {
+            "id": 6,
+            "original": "6.jpg",
+            "thumbnail": "6.jpg",
+            "standard": "6.jpg"
+          },
+          {
+            "id": 7,
+            "original": "7.jpg",
+            "thumbnail": "7.jpg",
+            "standard": "7.jpg"
+          },
+          {
+            "id": 8,
+            "original": "8.jpg",
+            "thumbnail": "8.jpg",
+            "standard": "8.jpg"
+          },
+          {
+            "id": 9,
+            "original": "9.jpg",
+            "thumbnail": "9.jpg",
+            "standard": "9.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 21,
+        "price_sale": 15
+      },
+      {
+        "id": 4,
+        "title": "Metallic Blouse",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          },
+          {
+            "id": 2,
+            "original": "2.jpg",
+            "thumbnail": "2.jpg",
+            "standard": "2.jpg"
+          },
+          {
+            "id": 3,
+            "original": "3.jpg",
+            "thumbnail": "3.jpg",
+            "standard": "3.jpg"
+          },
+          {
+            "id": 4,
+            "original": "4.jpg",
+            "thumbnail": "4.jpg",
+            "standard": "4.jpg"
+          },
+          {
+            "id": 5,
+            "original": "5.jpg",
+            "thumbnail": "5.jpg",
+            "standard": "5.jpg"
+          },
+          {
+            "id": 6,
+            "original": "6.jpg",
+            "thumbnail": "6.jpg",
+            "standard": "6.jpg"
+          },
+          {
+            "id": 7,
+            "original": "7.jpg",
+            "thumbnail": "7.jpg",
+            "standard": "7.jpg"
+          },
+          {
+            "id": 8,
+            "original": "8.jpg",
+            "thumbnail": "8.jpg",
+            "standard": "8.jpg"
+          },
+          {
+            "id": 9,
+            "original": "9.jpg",
+            "thumbnail": "9.jpg",
+            "standard": "9.jpg"
+          },
+          {
+            "id": 10,
+            "original": "10.jpg",
+            "thumbnail": "10.jpg",
+            "standard": "10.jpg"
+          },
+          {
+            "id": 11,
+            "original": "11.jpg",
+            "thumbnail": "11.jpg",
+            "standard": "11.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 30,
+        "price_sale": 0
+      },
+      {
+        "id": 5,
+        "title": "Metallic Blouse",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 10,
+        "price_sale": 0
+      },
+      {
+        "id": 6,
+        "title": "Avenue Triangle Long Sleeve",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 10,
+        "price_sale": 8
+      },
+      {
+        "id": 7,
+        "title": "Fashion Avenue EAL Long Sleeve",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 15,
+        "price_sale": 10
+      },
+      {
+        "id": 8,
+        "title": "Avenue Fashion White T-Shirt",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 15,
+        "price_sale": 0
+      },
+      {
+        "id": 9,
+        "title": "Avenue Fashion Red t-shirt",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 15,
+        "price_sale": 0
+      },
+      {
+        "id": 10,
+        "title": "Avenue Fashion ircle Neck",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 11,
+        "price_sale": 0
+      },
+      {
+        "id": 11,
+        "title": "Avenue Long Sleeves",
+        "description":{
+          "card":"Machine washable.",
+          "appetiser":"Machine washable.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+          "full":"Machine washable. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sit ut consequuntur, pariatur totam excepturi corrupti rerum autem quis deserunt nisi officia blanditiis voluptatum molestias sed. Consectetur explicabo eligendi quam."
+        },
+        "categories":[2,2,4],
+        "image": [
+          {
+            "id": 1,
+            "original": "1.jpg",
+            "thumbnail": "1.jpg",
+            "standard": "1.jpg"
+          }
+        ],
+        "variants": [
+          {
+            "id": "17a15b7fb176",
+            "size": "small",
+            "color": "pink",
+            "stock": 3           
+          },
+          {
+            "id": "73c83e0a1f09",
+            "size": "medium",
+            "color": "pink",
+            "stock": 5           
+          },
+          {
+            "id": "85ff2824f56c",
+            "size": "large",
+            "color": "blue",
+            "stock": 1           
+          },
+          {
+            "id": "1316a0a23d6a",
+            "size": "medium",
+            "color": "blue",
+            "stock": 6           
+          },
+          {
+            "id": "41d9ef23d1ae",
+            "size": "medium",
+            "color": "black",
+            "stock": 2           
+          },
+          {
+            "id": "1b5bb5d29d94",
+            "size": "large",
+            "color": "black",
+            "stock": 1           
+          },
+          {
+            "id": "265baa050194",
+            "size": "medium",
+            "color": "white",
+            "stock": 17           
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "date_added": "2018-05-10T12:30:00",
+        "tags":["Casual","Men","T-Shirt"],
+        "price_original": 12,
+        "price_sale": 0
+      }
+]
