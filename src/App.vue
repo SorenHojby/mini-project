@@ -13,7 +13,6 @@ import Topbar from "@/components/Topbar.vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import Bottom from "@/components/Bottom.vue";
-import axios from "axios";
 
 export default {
   components: {
@@ -26,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/fonts.scss";
+@import "@/assets/scss/scss.scss";
 body {
   background: white !important;
 }
@@ -59,7 +58,9 @@ hr {
   color: #fff;
   text-decoration: none;
 }
-
+.no-radius {
+  border-radius: 0px !important;
+}
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */

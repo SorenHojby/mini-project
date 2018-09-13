@@ -1,46 +1,57 @@
 <template>
-   <footer class="container py-5">
+   <footer class="container py-5 footer">
       <div class="row">
-        <div class="col-12 col-md">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
+       <div class="col-6 col-md">
+          <h5 class=" text-left footer__headline">Information</h5>
+          <ul class="list-unstyled text-small text-left">
+            <li><a class="footer__link" href="#">The brand</a></li>
+            <li><a class="footer__link" href="#">Local stores</a></li>
+            <li><a class="footer__link" href="#">Customer service</a></li>
+            <li><a class="footer__link" href="#">Privacy &amp; cookies</a></li>
+            <li><a class="footer__link" href="#">Site map</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
+          <h5 class=" text-left footer__headline">Why buy from us</h5>
+          <ul class="list-unstyled text-small text-left">
+            <li><a class="footer__link" href="#">Shipping &amp; returns</a></li>
+            <li><a class="footer__link" href="#">Secure shopping</a></li>
+            <li><a class="footer__link" href="#">Testimonials</a></li>
+            <li><a class="footer__link" href="#">Award winning</a></li>
+            <li><a class="footer__link" href="#">Ethical trading</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
+          <h5 class=" text-left footer__headline">Your account</h5>
+          <ul class="list-unstyled text-small text-left">
+            <li><a class="footer__link" href="#">Sign in</a></li>
+            <li><a class="footer__link" href="#">Register</a></li>
+            <li><a class="footer__link" href="#">View cart</a></li>
+            <li><a class="footer__link" href="#">View your lookbook</a></li>
+            <li><a class="footer__link" href="#">Track an order</a></li>
+            <li><a class="footer__link" href="#">Update information</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
+          <h5 class=" text-left footer__headline">Lookbook</h5>
+          <ul class="list-unstyled text-small text-left">
+            <li><a class="footer__link" href="#">Latest posts</a></li>
+            <li><a class="footer__link" href="#">Men’s lookbook</a></li>
+            <li><a class="footer__link" href="#">Women’s lookbook</a></li>
+            <li><a class="footer__link" href="#">Lookbooks RSS feed</a></li>
+            <li><a class="footer__link" href="#">View your lookbook</a></li>
+            <li><a class="footer__link" href="#">Delete your lookbook</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class=" text-left footer__headline">Contact Details</h5>
+          <ul class="list-unstyled text-small text-left">
+            <li>Head Office: Avenue Fashion, <br>
+180-182 Regent Street, London.</li>
+            <li>&nbsp;</li>
+            <li>Telephone: <a class="footer__link" href="tel:0123-456-789">0123-456-789</a></li>
+            <li>&nbsp;</li>
+            <li>Email:<a class="footer__link" href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,16 @@
+.footer {
+  .footer__headline {
+    @include Montserrat-SemiBold;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .footer__link {
+    @include Montserrat-Light;
+    font-size: 14px;
+    color: $darkgray;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+}

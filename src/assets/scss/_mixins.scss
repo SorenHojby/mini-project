@@ -1,0 +1,77 @@
+@mixin Montserrat-Medium {
+  font-family: "my-Montserrat-Medium";
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin Montserrat-Black {
+  font-family: "my-Montserrat-Black";
+  font-weight: 900;
+  font-style: normal;
+}
+
+@mixin Montserrat-SemiBold {
+  font-family: "my-Montserrat-SemiBold";
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin Montserrat-Light {
+  font-family: "my-Montserrat-Light";
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin Montserrat-Regular {
+  font-family: "my-Montserrat-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Montserrat-Bold {
+  font-family: "my-Montserrat-Bold";
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin Montserrat-ExtraBold {
+  font-family: "my-Montserrat-ExtraBold";
+  font-weight: 800;
+  font-style: normal;
+}
+
+@mixin Montserrat-Thin {
+  font-family: "my-Montserrat-Thin";
+  font-weight: 100;
+  font-style: normal;
+}
+
+@mixin Roboto-Thin {
+  font-family: "my-Roboto-Thin";
+  font-weight: 100;
+  font-style: normal;
+}
+
+@mixin Roboto-Regular {
+  font-family: "my-Roboto-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Roboto-Medium {
+  font-family: "my-Roboto-Medium";
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin Roboto-Bold {
+  font-family: "my-Roboto-Bold";
+  font-weight: 100;
+  font-style: bold;
+}
+
+@mixin Roboto-Light {
+  font-family: "my-Roboto-Light";
+  font-weight: 300;
+  font-style: normal;
+}

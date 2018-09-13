@@ -1,0 +1,164 @@
+.grid-container {
+  display: grid;
+  grid-row-gap: $grid-gap;
+  grid-column-gap: $grid-gap;
+  grid-template-areas:
+    "item0 item1 item2 item2"
+    "item3 item3 item2 item2"
+    "item3 item3 item2 item2"
+    "item3 item3 item4 item5";
+}
+
+.item {
+  position: relative;
+  width: 100%;
+
+  .pricetag {
+    @include Montserrat-Light;
+    position: absolute;
+    top: 15px;
+    float: left;
+    left: 21px;
+    z-index: 105;
+    color: $pricetag;
+  }
+  .middle {
+    transition: 0.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0px, 23px);
+    -ms-transform: translate(0px, 23px);
+    width: 100%;
+    z-index: 110;
+    text-align: right;
+
+    .infoicon {
+      display: block;
+      z-index: 200;
+      text-align: center;
+      color: white;
+      position: absolute;
+      bottom: 25px;
+      width: 100%;
+      left: 0px;
+      font-size: $base + 15;
+    }
+    .fa-info-circle {
+      color: $white;
+    }
+    .fa-info-circle:hover {
+      color: $primary-color-hover;
+      cursor: pointer;
+    }
+    .thumbnails {
+      float: right;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+      z-index: 115;
+      & img {
+        margin-bottom: 10px;
+        border: 1px solid white;
+        display: block;
+        width: 50px;
+      }
+    }
+  }
+  .infobox {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    @include Montserrat-Regular;
+    background-color: #f8f8f8;
+    position: absolute;
+    margin-top: 0px;
+    color: $black;
+    font-size: 16px;
+    padding: 15px;
+    z-index: 115;
+    width: 100%;
+    display: block;
+    & h3 {
+      text-align: left;
+      font-size: 13px;
+      @include Montserrat-Regular;
+      & .price {
+        text-align: right;
+      }
+    }
+    & p {
+      font-size: 13px;
+      text-align: left;
+      @include Montserrat-Regular;
+    }
+  }
+
+  .image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 100% !important;
+    height: 310px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: 50;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  }
+  a {
+    &:hover {
+      .circle {
+        background-color: $primary-color;
+        .fa-inverse {
+          color: #fff;
+        }
+      }
+    }
+    .circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      color: #fff;
+      background-color: #727272;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+}
+.item0 {
+  grid-area: item0;
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+  .image {
+    height: 450px;
+  }
+  .infobox {
+    bottom: -88px;
+  }
+}
+.item3 {
+  grid-area: item3;
+  .image {
+    height: 450px;
+  }
+  .infobox {
+    bottom: -88px;
+  }
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}

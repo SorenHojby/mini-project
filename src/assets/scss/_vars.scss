@@ -1,0 +1,26 @@
+//Color
+//real colors
+$grey: #727272;
+$gray: #727272;
+$black: #000;
+$white: #fff;
+$darkgrey: #333333;
+$darkgray: $darkgrey;
+
+//color vars with hex
+$ealGreen: #019898;
+$primary-color: $ealGreen;
+$secondary-color: darken($grey, 10%);
+$text: $gray;
+$footer-bg: $darkgrey;
+$bottom-bg: $darkgrey;
+$bottom-text: #999999;
+$infobox-bg: #f8f8f8;
+$pricetag: #9a9a9a;
+$primary-color-hover: $ealGreen;
+
+//Padding and margin
+$grid-gap: 20px;
+
+// Font sizes
+$base: 16px;

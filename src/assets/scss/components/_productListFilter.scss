@@ -1,0 +1,13 @@
+.nav {
+  .nav-link {
+    @include Montserrat-SemiBold;
+    font-size: 13px;
+    font-weight: 600;
+    &.active,
+    &:hover {
+      @include Montserrat-Bold;
+      font-size: 13px;
+      color: #00c8c8;
+    }
+  }
+}
