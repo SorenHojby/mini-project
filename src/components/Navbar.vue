@@ -71,7 +71,7 @@
         </div>
       </li>
     </ul>
-     <form class=".ml-md-auto form-inline">
+     <form class="ml-md-auto form-inline">
         <div class="input-group">
             <input type="text" name="search" class="searchfield form-control" placeholder="Search.." >
             <i class="fas fa-search"></i>
