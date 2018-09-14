@@ -54,7 +54,7 @@
              </ul>
          </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#" role="button">The brand</a>
+        <a class="nav-link" href="/brand" role="button">The brand</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Local Stores</a>
