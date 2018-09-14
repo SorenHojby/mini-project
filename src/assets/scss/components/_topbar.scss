@@ -1,0 +1,29 @@
+.topbar {
+  background-color: $header-bg;
+  color: $text;
+  .btnCurrencySelector {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 13px;
+    color: #bbb;
+  }
+  .nav-link {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 13px;
+    color: #bbb;
+    &:hover {
+      color: #fff;
+    }
+    &.cartlink {
+      background-color: #00c8c8;
+      color: #fff;
+
+      &:hover {
+        background-color: #00c8c8;
+        color: #eee;
+      }
+    }
+    .dropdown-item {
+      font-size: 13px;
+    }
+  }
+}

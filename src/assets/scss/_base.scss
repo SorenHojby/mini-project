@@ -1,0 +1,48 @@
+body {
+  @include Montserrat-Regular;
+  background: $white !important;
+}
+
+hr {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background: darken($white, 10%);
+  height: 2px;
+  border: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.no-radius {
+  border-radius: 0px !important;
+}
+
+// Social Media colors
+a {
+  svg {
+    color: $white;
+  }
+  &:hover {
+    svg.fa-twitter-square {
+      color: #00aced;
+    }
+    svg.fa-facebook-square {
+      color: #3b5998;
+    }
+    svg.fa-pinterest-square {
+      color: #c92228;
+    }
+    svg.fa-instagram {
+      color: #517fa4;
+    }
+  }
+}
+#app {
+  @include Montserrat-Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

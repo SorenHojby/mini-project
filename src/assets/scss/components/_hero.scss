@@ -5,15 +5,19 @@
   background-image: url("/assets/images/hero.jpg");
   background-position: center center;
   background-size: 100%;
+  background-repeat: no-repeat;
   height: 600px;
   .hero__btn {
-    font-family: "Montserrat-Regular", sans-serif;
+    @include Montserrat-Regular;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 16px;
-    position: relative;
-    top: 50vh;
-    left: 15vw;
+    font-size: $base;
+    position: absolute;
+    top: 450px;
+    right: 500px;
     border-radius: 0px;
+    &:hover {
+      background-color: $primary-color-hover;
+    }
   }
 }

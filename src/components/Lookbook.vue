@@ -37,7 +37,6 @@ Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.</p>
                     <h4 class="lookbook__h4">Lookbook</h4>
                     <p class="lookbook__text">See an item you like and click the  <i class="far fa-heart"></i> button to add it to your lookbook where you can create your own perfect look.<br>It’s like your own boutique! </p>
                     <button class="btn btn-outline-secondary no-radius lookbook__btn">View now</button>
-
                   </div>
                 </div>
             </div>

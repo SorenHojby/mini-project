@@ -1,6 +1,6 @@
 <template>
 <div class="home">
-    <Hero/> <!-- only show this on the frontpage page -->
+    <Hero/>
     <div class="container">
         <hr class="mt-5 mb-5">
         <ProductListFilter />
@@ -25,6 +25,3 @@ export default {
   }
 };
 </script>
-<style lang="scss">
-@import "@/assets/scss/scss.scss";
-</style>

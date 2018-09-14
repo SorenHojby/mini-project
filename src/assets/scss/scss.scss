@@ -1,12 +1,18 @@
 @import "vars";
 @import "fonts";
 @import "mixins";
+@import "base";
 
 // COMPONENTS
+@import "components/topbar";
+@import "components/nav";
 @import "components/hero";
 @import "components/lookbook";
 @import "components/productList";
 @import "components/productListFilter";
+@import "components/product";
+@import "components/account";
+@import "components/brand";
 @import "components/footer";
 @import "components/bottom";
 

@@ -30,7 +30,7 @@
                     <p class=" text-center">{{ product.description.appetiser }}</p>
 
                     <div class="row">
-                        <div class="col">
+                        <div class="col text-center">
                             <a href="#">
                                 <div class="circle">
                                     <i class="fas fa-shopping-cart fa-inverse"></i>
@@ -77,6 +77,3 @@ export default {
   }
 };
 </script>
-<style lang="scss">
-@import "@/assets/scss/scss.scss";
-</style>

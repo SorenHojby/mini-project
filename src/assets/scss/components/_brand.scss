@@ -1,0 +1,38 @@
+.brand {
+  .brand__banner {
+    position: relative;
+    margin-top: 0px;
+    z-index: 0;
+    background-image: url("/assets/images/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    h3 {
+      text-transform: uppercase;
+      position: relative;
+      z-index: 100;
+      text-align: center;
+      margin-top: 0px;
+      color: $text;
+      font-size: $base + 33;
+      @include Montserrat-Bold;
+      span {
+        @include Montserrat-Light;
+      }
+    }
+    h2 {
+      @include Montserrat-Regular;
+      text-transform: capitalize;
+      position: relative;
+      z-index: 100;
+      text-align: center;
+      margin-top: 0px;
+      color: $text;
+      font-size: $base + 15;
+      .title {
+        color: $primary-color;
+      }
+    }
+  }
+}

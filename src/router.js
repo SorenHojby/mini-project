@@ -7,6 +7,8 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import Home from "./views/Home.vue";
 import Product from "./views/Product.vue";
+import Account from "./views/Account.vue";
+import Brand from "./views/Brand.vue";
 
 Vue.use(Router);
 
@@ -23,6 +25,16 @@ export default new Router({
       path: "/product/:id",
       name: "product",
       component: Product
+    },
+    {
+      path: "/account",
+      name: "account",
+      component: Account
+    },
+    {
+      path: "/brand",
+      name: "brand",
+      component: Brand
     }
   ]
 });

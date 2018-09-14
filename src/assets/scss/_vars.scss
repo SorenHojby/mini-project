@@ -1,26 +1,34 @@
-//Color
-//real colors
+//COLORS
 $grey: #727272;
 $gray: #727272;
 $black: #000;
 $white: #fff;
+$ghostwhite: #f8f8f8;
+$gold: #ded3aa;
 $darkgrey: #333333;
 $darkgray: $darkgrey;
-
-//color vars with hex
 $ealGreen: #019898;
 $primary-color: $ealGreen;
 $secondary-color: darken($grey, 10%);
 $text: $gray;
-$footer-bg: $darkgrey;
-$bottom-bg: $darkgrey;
-$bottom-text: #999999;
+$primary-color-hover: $ealGreen;
+$black-transparent: rgba(0, 0, 0, 0.5);
+$transparent-75: rgba(51, 51, 51, 0.75);
+//FONT SIZES
+$base: 16px;
+
+//COMPONENTS
+
+//ProductList
+$grid-gap: 20px;
 $infobox-bg: #f8f8f8;
 $pricetag: #9a9a9a;
-$primary-color-hover: $ealGreen;
 
-//Padding and margin
-$grid-gap: 20px;
+//Header
+$header-bg: $darkgrey;
+//Footer
+$footer-bg: $darkgrey;
 
-// Font sizes
-$base: 16px;
+//Bottom
+$bottom-bg: $darkgrey;
+$bottom-text: #999999;

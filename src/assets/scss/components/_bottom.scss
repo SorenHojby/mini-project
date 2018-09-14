@@ -3,6 +3,6 @@
   .bottom__text {
     color: $bottom-text;
     @include Montserrat-Regular;
-    font-size: 13px;
+    font-size: $base - 3;
   }
 }

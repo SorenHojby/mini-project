@@ -37,7 +37,7 @@
       display: block;
       z-index: 200;
       text-align: center;
-      color: white;
+      color: $white;
       position: absolute;
       bottom: 25px;
       width: 100%;
@@ -53,40 +53,40 @@
     }
     .thumbnails {
       float: right;
-      color: white;
-      font-size: 16px;
+      color: $white;
+      font-size: $base;
       padding: 16px 32px;
       z-index: 115;
       & img {
         margin-bottom: 10px;
-        border: 1px solid white;
+        border: 1px solid $white;
         display: block;
         width: 50px;
       }
     }
   }
   .infobox {
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px $black-transparent;
     @include Montserrat-Regular;
-    background-color: #f8f8f8;
+    background-color: $infobox-bg;
     position: absolute;
     margin-top: 0px;
     color: $black;
-    font-size: 16px;
+    font-size: $base;
     padding: 15px;
     z-index: 115;
     width: 100%;
     display: block;
     & h3 {
       text-align: left;
-      font-size: 13px;
-      @include Montserrat-Regular;
+      font-size: $base - 3;
+      @include Montserrat-SemiBold;
       & .price {
         text-align: right;
       }
     }
     & p {
-      font-size: 13px;
+      font-size: $base - 3;
       text-align: left;
       @include Montserrat-Regular;
     }
@@ -106,14 +106,14 @@
   }
 
   &:hover {
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px $black-transparent;
   }
   a {
     &:hover {
       .circle {
         background-color: $primary-color;
         .fa-inverse {
-          color: #fff;
+          color: $white;
         }
       }
     }
@@ -122,8 +122,8 @@
       width: 30px;
       height: 30px;
       border-radius: 100%;
-      color: #fff;
-      background-color: #727272;
+      color: $white;
+      background-color: $gray;
       text-align: center;
       line-height: 30px;
     }
